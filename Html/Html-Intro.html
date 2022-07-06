@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,800;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>KoObs</title>
+</head>
+
+<body>
+
+  <!--navbarSection-->
+  <header class="header position-relative bg-gradient">
+    <div class="container">
+      <!--check to see redundancy-->
+
+
+
+      <nav class="navbar navbar-expand-sm navbar-dark py-0">
+        <a href="../index.html" class="navbar-brand">
+          <h1><span class="redText"><strong>Ko</span>Obs</strong></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div class="collapse navbar-collapse ps-3 pe-5 text-center" id="toggleMobileMenu">
+
+          <ul class="navbar-nav text-center ms-auto">
+            <li class="nav-item active">
+              <div class="dropdown">
+                <button type=" button-navbar button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                  TOPICS
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../Html/webDevIntro.html">Intro to Web Dev</a></li>
+                  <li><a class="dropdown-item" href="../Html/Html-Intro.html">HTML</a></li>
+                  <li><a class="dropdown-item" href="../Html/CssIntro.html">CSS </a></li>
+                  <li><a class="dropdown-item" href="../Html/JavaScriptIntro.html">JavaScript </a></li>
+                  <li><a class="dropdown-item" href="../Html/Bootstrap5Intro.html">Bootstrap </a></li>
+                  <li><a class="dropdown-item" href="../Html/GitIntro.html">Git</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="../Html/References.html">REFERENCES</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">HOME</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+  <main class="main">
+
+    <!--about web development-->
+    <section id="htmlIntroMain" class="htmlIntroMain">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 my-5 order-1 p-5 main-content rounded" data-aos="fade-down">
+            <h1 class="h1funFacts darkBlueText pt-3"> <strong>What is HTML?</strong> </h1>
+            <p><strong>HTML</strong> is the acronym for <em>"Hypertext Markup Language"</em>that is used to make
+              websites.
+              The hyperlinks that may be present in an HTML page are referred to as <em>"hypertext."</em>
+              The term <em>"markup language"</em> describes the way tags are used to define the page layout and its
+              elements.
+
+              HTML coding maintains that text and graphics are formatted correctly.
+              Without HTML, a browser would not understand how to load images or other elements or display text as an
+              element.
+
+              The HTML code for a simple webpage with a title and paragraph of text is shown in the example below.
+
+
+
+            </p>
+            <div class="border border-secondary bg-light p-5 rounded">
+
+              <p><span style="font-family:Calibri">&lt;!doctype html&gt;</span></p>
+              <p><span style="font-family:Calibri">&lt;html&gt;</span></p>
+              <p style="text-indent:36.0000pt"><span style="font-family:Calibri">&lt;head&gt;</span></p>
+              <p style="margin-left:36.0000pt;text-indent:36.0000pt"><span
+                  style="font-family:Calibri">&lt;title&gt;Sample Page Title&lt;/title&gt;</span></p>
+              <p style="text-indent:36.0000pt"><span style="font-family:Calibri">&lt;/head&gt;</span></p>
+              <p style="text-indent:36.0000pt"><span style="font-family:Calibri">&lt;body&gt;</span></p>
+              <p style="margin-left:36.0000pt;text-indent:36.0000pt"><span style="font-family:Calibri">Content of the
+                  Sample Page goes here.</span></p>
+              <p style="text-indent:36.0000pt"><span style="font-family:Calibri">&lt;/body&gt;</span></p>
+              <p><span style="font-family:Calibri">&lt;/html&gt;</span></p>
+
+            </div><br />
+
+            <p>
+              <strong>HTML tags</strong> are the hidden keywords found in online pages that specify how the material
+              should be formatted
+              and displayed by your web browser.<br />
+
+              The opening and closing parts of most tags are required. A forward-slash <strong>(/)</strong> character
+              appears in the
+              closing tag, which contains the same text as the opening tag. This usually reads as the "end" or "close"
+              character.<br />
+
+              There are some tags that are an exception to this rule and for which there is no need for a closing tag.
+              One example is the <strong>&lt;img&gt;</strong> or image tag for showing images.<br />
+
+              Each HTML file must contain the necessary tags in order for web browsers to read and interpret it.
+            </p>
+            <div class="border border-secondary bg-light p-5 rounded">
+              <p><span><strong>Opening and closing tags example:&nbsp;</strong>
+                  <table style="width: 189px; height: 103px;">
+                    <tr>
+                      <td>Opening</td>
+                      <td>Closing</td>
+                    </tr>
+                    <tr>
+                      <td>&lt;div&gt;</td>
+                      <td>&lt;/div&gt;</td>
+                    </tr>
+                    <tr>
+                      <td>&lt;p&gt;</td>
+                      <td>&lt;/p&gt;&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>&lt;span&gt;</td>
+                      <td>&lt;/span&gt;</td>
+                    </tr>
+                  </table>
+                </span></p>
+            </div>
+            <p>
+              <br />
+              The <strong>opening tag</strong> defines attributes, which let you customize a tag.
+              <br />
+              For instance:
+              &lt;img src="image1.jpg"&gt; or &lt;p align="center"&gt; ... &lt;/p&gt;<br />
+
+
+
+
+              Some attributes just need to be specified in the tag, while others are frequently assigned values using
+              the
+              equals sign, such as <strong>border="0" or width="50 %"</strong>.<br />
+
+
+
+              Most attributes are optional for most tags, and they are solely used to alter how a tag is presented by
+              the
+              browser by default. However, other elements, like the &lt;img&gt; tag, require characteristics like src
+              and alt in
+              order for the browser to correctly display the website.<br /><br />
+            </p>
+            <p>
+              Below are some examples of <strong> HTML Tags </strong>
+            </p>
+            <div class="border border-secondary bg-light p-5 rounded">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">HTML TAG</th>
+                    <th scope="col">Desription</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">&lt;a&gt;</th>
+                    <td>Create a hyperlink to help visitors get from one page to another.</td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;br&gt;</th>
+                    <td>Create a single-line break in a document.</td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;div&gt;</th>
+                    <td>Divide or section off the content on a web page.</td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;form&gt;</th>
+                    <td>Create an interactive section on a web page for visitors to submit information.</td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;h1 to h6&gt;</th>
+                    <td>Designate headings of both different sizes and importance.</td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;html&gt;</th>
+                    <td>Tell a browser that it is viewing an HTML document.</td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;img&gt;</th>
+                    <td>Designate a holding space for linked images.</td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;p&gt;</th>
+                    <td>Designate a paragraph.</td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;script&gt;</th>
+                    <td>Designate a client-side script on a web page.</td>
+
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;table&gt;</th>
+                    <td>Create a table.</td>
+
+                  </tr>
+                </tbody>
+              </table>
+            </div><br/><br/>
+
+
+
+
+
+
+
+
+
+            <p>References:</p>
+            <a href="https://www.computerhope.com/learnhtm.htm"
+              class="reference-link">https://www.computerhope.com/learnhtm.htm </a><br />
+            <a href="https://techterms.com/definition/html"
+              class="reference-link">https://techterms.com/definition/html</a> <br />
+            <a href="http://www.simplehtmlguide.com/whatishtml.php"
+              class="reference-link">http://www.simplehtmlguide.com/whatishtml.php
+            </a>
+
+
+          </div>
+          <div class="col-lg-3 my-5  order-2 py-3 px-5 sidebarFacts rounded shadow" data-aos="fade-left">
+            <img src="../img/tim-berners.webp" alt="Tim-Berners-Lee-picture" class="w-100 rounded">
+            <h1 class="h1funFacts redText pt-3"> <strong>FUN FACT</strong> </h1>
+            <p class="text-light p-fun-facts"><strong>
+                HTML, or Hypertext Markup Language, was created by <strong> Tim Berners-Lee</strong> in 1990.
+                He also created the World Wide Web which displays electronic documents,
+                sometimes known as pages, that are created using HTML. Each page has numerous
+                hyperlinks, which are connections to other pages. You are currently viewing one
+                version of HTML on every web page.
+                <br />
+
+
+
+              </strong>
+            </p>
+            <br /><br />
+
+            
+              <span class="darkBlueText">References:</span>
+              </p>
+              <a href="https://webfoundation.org/about/vision/history-of-the-web/"
+                class="reference-link">webfoundation.org/about/vision/history-of-the-web/</a>
+              <a href="https://www.computerhope.com/jargon/h/html.htm"
+                class="reference-link">www.computerhope.com/jargon/h/html.htm</a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+  </main>
+
+  <!--footerSection-->
+  <footer class="footer pt-5 text-light bg-gradient">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3><span class="redText">Ko</span>Obs</h3>
+            <p>
+              La Salle Ave., <br>
+              Bacolod City, Neg. Occ., 6100<br>
+              Philippines <br><br>
+              <strong>Phone:</strong> +63 900 0000 000<br>
+              <strong>Email:</strong> koobs@notyetexisting.com<br>
+            </p>
+          </div>
+
+          
+
+          <div class="col-lg-5 col-md-12 footer-links px-5">
+            <p><strong>Topic Links</strong></p>
+            <ul>
+              <li><a class="footer-links" href="../Html/webDevIntro.html">Intro to Web Dev</a></li>
+              <li><a class="footer-links" href="../Html/Html-Intro.html">HTML</a></li>
+              <li><a class="footer-links" href="../Html/CssIntro.html">CSS 3</a></li>
+              <li><a class="footer-links" href="../Html/JavaScriptIntro.html">JavaScript </a></li>
+              <li><a class="footer-links" href="../Html/Bootstrap5Intro.html">Bootstrap </a></li>
+              <li><a class="footer-links" href="../Html/GitIntro.html">Git</a></li>
+              <li><a class="footer-links" href="../Html/References.html">References</a></li>
+              <li><a class="footer-links" href="../index.html">Home</a></li>
+            </ul>
+            
+          </div>
+
+          
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Get updates from KoObs </p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start pb-2">
+        <div class="copyright">
+          &copy; Copyright <strong>Ko<span class="redFont">Obs</span></strong>. All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'linear',
+      once: true,
+      duration: 700,
+    });
+  </script>
+
+</body>
+
+</html>

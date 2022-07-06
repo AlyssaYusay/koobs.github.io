@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.btn-primary {
+    font-size: 17px;
+    background-color: #4682B4;
+    border-color: #4682B4;
+
+}
+
+.btn-primary:hover {
+    font-size: 17px;
+    background-color: orange;
+    border-color: orange;
+
+}
+
+.dropdown-menu {
+    background-color: orange;
+}
+
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+
+}
+
+#hero {
+    background-image: url("../img/alexandru-acea-XEB8y0nRRP4-unsplash.webp");
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    height: 80vh;
+
+}
+
+.hero-col {
+    background-color: #f0f8ff99;
+
+
+}
+
+.header {
+    background-color: #4682B4;
+}
+
+.about {
+    background-color: #4682B4;
+}
+
+.quicklinks {
+    background-color: #F3F4F7;
+}
+
+.footer {
+    background-color: #4682B4;
+}
+
+.redText {
+    color: orange;
+}
+
+.quickLinks-card {
+    background-color: #B6D0E2;
+    color: #08457e;
+    transition: ease-out 0.5s;
+
+}
+
+.quickLinks-card:hover {
+    background-color: orange;
+    cursor: pointer;
+    color: #041a25;
+}
+
+
+
+.nav-link:hover {
+    background-color: orange;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+/* otherpages */
+
+.sidebarFacts {
+    background-color: #4682B4;
+}
+
+.p-fun-facts {
+    font-size: 15px;
+}
+
+.main-content {
+    background-color: #B6D0E2;
+}
+
+.darkBlueText {
+    color: #041a25;
+}
+
+/* reference links */
+
+.reference-link {
+    color: #041a25;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+/* videos */
+.iframe {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.quickLinks-cardLink{
+    text-decoration: none;
+    color: #08457e;
+}
+
+.footer-links{
+    text-decoration: none;
+    color: white
+}
