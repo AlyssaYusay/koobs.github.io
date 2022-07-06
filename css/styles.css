@@ -22,7 +22,9 @@
 .dropdown-menu {
     background-color: orange;
 }
-
+.dropdown-item:hover{
+    background-color: #B6D0E2;
+}
 
 body {
     font-family: 'Nunito Sans', sans-serif;
@@ -42,9 +44,12 @@ body {
 }
 
 .hero-col {
-    background-color: #f0f8ff99;
+    background-color: #f0f8ffda;
 
 
+}
+.hero-col-line-1{
+    font-size: 50px;
 }
 
 .header {
